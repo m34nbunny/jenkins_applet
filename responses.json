@@ -1,0 +1,11 @@
+{  
+   "responses" : [
+		{ "name" : "TitleClose_DEV", "status" : "Building", "url" : "https://build.titleclose.com/job/TitleClose_DEV/", "imgpath" : "/home/meanbunny/.jenkins_applet/green_anime.gif", "currentBuildUrl" : "http://build.titleclose.com/job/TitleClose_DEV/523/" }, 
+		{ "name" : "TitleClose_QC", "status" : "Success", "url" : "http://build.titleclose.com/job/TitleClose_QC/", "imgpath" : "/home/meanbunny/.jenkins_applet/green.png", "currentBuildUrl" : "http://build.titleclose.com/job/TitleClose_QC/14/" }, 
+		{ "name" : "TitleClose_OrderCreation", "status" : "Success", "url" : "http://build.titleclose.com/job/TitleClose_OrderCreation/", "imgpath" : "/home/meanbunny/.jenkins_applet/green.png", "currentBuildUrl" : "http://build.titleclose.com/job/TitleClose_OrderCreation/29/" }, 
+		{ "name" : "TitleClose_ProcessBilling", "status" : "Success", "url" : "http://build.titleclose.com/job/TitleClose_ProcessBilling/", "imgpath" : "/home/meanbunny/.jenkins_applet/green.png", "currentBuildUrl" : "http://build.titleclose.com/job/TitleClose_ProcessBilling/12/" }, 
+		{ "name" : "TitleClose_Android", "status" : "Success", "url" : "http://mmdesk2:8080/job/TitleClose_Android/", "imgpath" : "/home/meanbunny/.jenkins_applet/green.png", "currentBuildUrl" : "http://192.168.122.110:8080/job/TitleClose_Android/21/" }, 
+		{ "name" : "EPIC_Android", "status" : "Success", "url" : "http://mmdesk2:8080/job/EPIC_Android/", "imgpath" : "/home/meanbunny/.jenkins_applet/green.png", "currentBuildUrl" : "http://192.168.122.110:8080/job/EPIC_Android/36/" }, 
+
+	]
+}
