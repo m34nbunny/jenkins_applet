@@ -12,13 +12,19 @@ to execute applet/jenkins_poll.py for reporting statuses of Jenkins jobs.
 Navigate to your source directory and find the file called servers.json. Make
 sure not to put a comma at the end of the last job, otherwise it will complain.
 `
+
 {
 
   "jobs" : [
+
    { "name": "Job1", "job" : "https://mybuildserver/job/MyJobName1/" },
+
    { "name": "Job2", "job" : "https://mybuildserver/job/MyJobName2/" }
+
  ]
+
 }
+
 `
 
 ###Running Applet
