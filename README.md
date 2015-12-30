@@ -11,7 +11,7 @@ to execute applet/jenkins_poll.py for reporting statuses of Jenkins jobs.
 ###Adding in jobs
 Navigate to your source directory and find the file called servers.json. Make
 sure not to put a comma at the end of the last job, otherwise it will complain.
-```
+```json
 {
   "jobs" : [
    { "name": "Job1", "job" : "https://mybuildserver/job/MyJobName1/" },
