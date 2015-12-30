@@ -55,13 +55,27 @@ class poller:
         response = requests.get(url, params=params)
       except:
         print("${color DimGray}" + item["name"] + "${alignr}No Conn.")
-        return ""
+        imgpath += "grey.png"
+        friendly_text = "No Conn."
+        currentBuildUrl = ""
+        if (count + 1) == length:
+          jsontext = "\t\t{ \"name\" : \"" + item["name"] + "\", \"status\" : \"Failure\", \"url\" : \"" + item["job"] + "\", \"imgpath\" : \"" + imgpath + "\", \"currentBuildUrl\" : \"" + currentBuildUrl + "\" } \n"
+        else:
+          jsontext = "\t\t{ \"name\" : \"" + item["name"] + "\", \"status\" : \"Failure\", \"url\" : \"" + item["job"] + "\", \"imgpath\" : \"" + imgpath + "\", \"currentBuildUrl\" : \"" + currentBuildUrl + "\" }, \n"
+        return jsontext
 		
       try:
         response_data = response.json()
       except:
         print("${color DimGray}" + item["name"] + "${alignr}No Conn.")
-        return ""
+        imgpath += "grey.png"
+        friendly_text = "No Conn."
+        currentBuildUrl = ""
+        if (count + 1) == length:
+          jsontext = "\t\t{ \"name\" : \"" + item["name"] + "\", \"status\" : \"Failure\", \"url\" : \"" + item["job"] + "\", \"imgpath\" : \"" + imgpath + "\", \"currentBuildUrl\" : \"" + currentBuildUrl + "\" } \n"
+        else:
+          jsontext = "\t\t{ \"name\" : \"" + item["name"] + "\", \"status\" : \"Failure\", \"url\" : \"" + item["job"] + "\", \"imgpath\" : \"" + imgpath + "\", \"currentBuildUrl\" : \"" + currentBuildUrl + "\" }, \n"
+        return jsontext
 		
       try:
         status = response_data["color"]

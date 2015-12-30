@@ -1,12 +1,6 @@
 {
   "jobs" : [
-   { "name": "TitleClose_DEV", "job" : "https://build.titleclose.com/job/TitleClose_DEV/" },
-   { "name": "TitleClose_QC", "job" : "http://build.titleclose.com/job/TitleClose_QC/" },
-   { "name": "TitleClose_OrderCreation", "job" : "http://build.titleclose.com/job/TitleClose_OrderCreation/" },
-   { "name": "TitleClose_ProcessBilling", "job" : "http://build.titleclose.com/job/TitleClose_ProcessBilling/" },
-   { "name": "TitleClose_iOS", "job" : "http://mmosx:8080/job/TitleClose_iOS/" },
-   { "name": "TitleClose_Android", "job" : "http://mmdesk2:8080/job/TitleClose_Android/" },
-   { "name": "EPIC_Android", "job" : "http://mmdesk2:8080/job/EPIC_Android/" },
-   { "name": "EPIC_iOS", "job" : "http://mmosx:8080/job/EPIC_iOS/" }
+   { "name": "Job1", "job" : "https://mybuildserver/job/MyJobName1/" },
+   { "name": "Job2", "job" : "https://mybuildserver/job/MyJobName2/" }
  ]
 }
